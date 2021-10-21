@@ -26,12 +26,11 @@ public class Adivinador2 {
 			}
 			else 
 			{
-				// Empieza a pensar
 				num1 = (max+min)/2;
 			}
 			
 			if (num1 <= min || num1 >= max) {
-				System.out.println("La chupas por tramposo");
+				System.out.println("Has hecho trampas, fin del juego");
 				break;
 			}
 			System.out.println("Que te parece el " + num1 + " (<,=,>)? " );
@@ -40,10 +39,10 @@ public class Adivinador2 {
 		
 			String input = teclado.nextLine();
 			
-			// ------------------------------
+			// -------------------------
 			if(input.equals(">"))
 			{
-				// si es mayor se cambia el minimo
+				// Si es mayor 
 				min = num1;
 			}
 			else if (input.equals("<"))
@@ -51,6 +50,9 @@ public class Adivinador2 {
 				// Si es menor
 				max = num1;
 			}
+			
+			// -------------------------
+			
 			else if (input.equals("="))
 			{
 				System.out.println("tu numero es " + num1);
