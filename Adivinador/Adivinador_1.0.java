@@ -69,3 +69,4 @@ public class Adivinador2 {
 			}
 		}
 	}
+//--------------JOSE IGNACIO GODINO---------------------
