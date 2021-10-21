@@ -7,14 +7,16 @@ public class Adivina {
 public static void main(String[]args) {
 	 Scanner sc = new Scanner(System.in);
 	 
-	 
+	 //variables
+	
 	 int numusu; // Número introducido por el usuario.
 	 int numfor; // Intentos.
 	 
 	 
 	 byte opcion = 0;
 	 
-	 
+	 //menu
+	
 	 do {
 		 System.out.println("1. Facil");
          System.out.println("2. Intermedio");
@@ -89,7 +91,7 @@ public static void main(String[]args) {
     	 
     	 for (numfor=0; numfor<=4; numfor++) { 
 
- 		    // Primero se evalúa si se ha acertado.
+ 		    // Primero se evalua si se ha acertado.
  		    
  		    if (numrand2 == numusu) {  
  		      System.out.println("Has acertado!"); 
