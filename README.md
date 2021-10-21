@@ -1,2 +1,6 @@
 # JAVA_DAM
-Este es el repositorio con mi evolucion en JAVA. Cada ejercicio cuenta con su explicacion paso a paso y mis apuntes personales del propio codigo.
+This repository with my evolution in JAVA in my Multiplatform Applications Development course. Each exercise has a step-by-step explanation and my personal notes commented on in the code itself.
+Each program is indicated with a name and a date to keep a record of its evolution.
+
+
+![Logo java](https://cdn.worldvectorlogo.com/logos/java.svg)
