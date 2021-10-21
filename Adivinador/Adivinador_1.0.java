@@ -15,7 +15,7 @@ public class Adivinador2 {
 		int num1;
 		char rep = 'y';
 
-		System.out.println("Piensa un puto numero del " + min + " al " + max);
+		System.out.println("Piensa un numero del " + min + " al " + max);
 		
 		while(rep =='Y' || rep == 'y')
 		{
