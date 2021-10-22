@@ -26,12 +26,14 @@ public class Adivinador2 {
 			}
 			else 
 			{
-				// Empieza a pensar
+				
+			// Empieza a buscar el numero
+				
 				num1 = (max+min)/2;
 			}
 			
 			if (num1 <= min || num1 >= max) {
-				System.out.println("La chupas por tramposo");
+				System.out.println("Se acabo el juego por tramposo");
 				break;
 			}
 			System.out.println("Que te parece el " + num1 + " (<,=,>)? " );
@@ -70,3 +72,4 @@ public class Adivinador2 {
 		}
 	}
 //--------------JOSE IGNACIO GODINO---------------------
+//  
